@@ -132,7 +132,7 @@ class TextFieldWithDeleteState extends State<TextFieldWithDelete> {
               style: TextStyle(fontSize: widget.fontSize, fontWeight: widget.fontWeight),
               decoration: InputDecoration(
                 contentPadding:
-                    EdgeInsets.only(left: widget.leftImage == null ? 0 : 30, top: 10, bottom: 14),
+                    EdgeInsets.only(left: widget.leftImage == null ? 0 : 30, top: 10, bottom: 5),
                 hintText: widget.texthint,
                 hintStyle: TextStyle(
                     fontSize: widget.fontSize,
